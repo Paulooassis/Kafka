@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package com.crud.entities;
+
+option java_package = "com.crud.entities.protoBuf";
+option java_outer_classname = "LogMessageProto";
+
+enum CriticidadeLogProto {
+  UNKNOWN_LEVEL = 0;
+  ERROR = 1;
+  WARN = 2;
+  INFO = 3;
+}
+
+enum LogStatusProto {
+  UNKNOWN_STATUS = 0;
+  CREATED = 1;
+  PROCESSED = 2;
+}
+
+message ApiLogProto {
+  string id = 1;
+  string instante = 2;
+  CriticidadeLogProto logLevel = 3;
+  LogStatusProto logStatus = 4;
+  string message = 5;
+  string request = 6;
+}
