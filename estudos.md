@@ -1,4 +1,4 @@
-```md
+
 # Arquitetura da Aplicação Full Stack com Mensageria
 
 ## 1. Visão Geral
@@ -181,5 +181,4 @@ A aplicação utilizará uma arquitetura moderna baseada em eventos, combinando:
 
 Essa abordagem garante maior escalabilidade, organização do sistema e capacidade de lidar com grande volume de eventos e notificações.
 
-```
 ```
