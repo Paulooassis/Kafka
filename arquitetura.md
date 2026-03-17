@@ -17,7 +17,7 @@ A aplicação será composta por:
 
 ## Backend
 
-O backend será desenvolvido utilizando **:contentReference[oaicite:0]{index=0}**, responsável por:
+O backend será desenvolvido utilizando, responsável por:
 
 - expor endpoints REST
 - processar requisições
@@ -29,7 +29,7 @@ O backend será desenvolvido utilizando **:contentReference[oaicite:0]{index=0}*
 
 ## Banco de Dados
 
-Será utilizado **:contentReference[oaicite:1]{index=1}**, um banco de dados **NoSQL orientado a documentos**.
+Será utilizado um banco de dados **NoSQL orientado a documentos**.
 
 Ele será responsável por armazenar:
 
@@ -49,8 +49,6 @@ Ele será responsável por armazenar:
 
 ## Mensageria
 
-A comunicação assíncrona será realizada utilizando **:contentReference[oaicite:2]{index=2}**.
-
 O Kafka permitirá que eventos do sistema sejam processados de forma desacoplada.
 
 ### Exemplos de eventos
@@ -63,18 +61,13 @@ O Kafka permitirá que eventos do sistema sejam processados de forma desacoplada
 
 ## Frontend
 
-A interface do usuário poderá ser desenvolvida utilizando:
-
-- **:contentReference[oaicite:3]{index=3}** para aplicações web
-- **:contentReference[oaicite:4]{index=4}** para aplicações multiplataforma
-
 O frontend será responsável por consumir as APIs do backend e exibir as informações ao usuário.
 
 ---
 
 # 3. Documentação da API
 
-A documentação da API será realizada utilizando **:contentReference[oaicite:5]{index=5}**.
+A documentação da API será realizada utilizando **Swagger**.
 
 Essa ferramenta permite gerar automaticamente a documentação da API a partir do código da aplicação.
 
